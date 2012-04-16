@@ -28,7 +28,7 @@
     </UpgradeBackupLocation>
     <OldToolsVersion>3.5</OldToolsVersion>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
-    <ApplicationManifest>WMIScripter.manifest</ApplicationManifest>
+    <ApplicationManifest>src\WMIScripter.manifest</ApplicationManifest>
     <SignAssembly>false</SignAssembly>
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
@@ -135,97 +135,97 @@
     <EmbeddedResource Include="Art\MethodIcon.png" />
     <EmbeddedResource Include="Art\NamespaceIcon.png" />
     <EmbeddedResource Include="Art\PropertyIcon.png" />
-    <Compile Include="AboutBox.cs">
+    <Compile Include="src\AboutBox.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AboutBox.Designer.cs">
+    <Compile Include="src\AboutBox.Designer.cs">
       <DependentUpon>AboutBox.cs</DependentUpon>
     </Compile>
-    <Compile Include="assemblyinfo.cs">
+    <Compile Include="src\assemblyinfo.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="CodeLanguageGeneration\CSharpCodeGeneration.cs" />
-    <Compile Include="CodeLanguageGeneration\PowershellCodeGeneration.cs" />
-    <Compile Include="CodeLanguageGeneration\VBNetCodeGeneration.cs" />
-    <Compile Include="DocViewer.cs">
+    <Compile Include="src\CodeLanguageGeneration\CSharpCodeGeneration.cs" />
+    <Compile Include="src\CodeLanguageGeneration\PowershellCodeGeneration.cs" />
+    <Compile Include="src\CodeLanguageGeneration\VBNetCodeGeneration.cs" />
+    <Compile Include="src\DocViewer.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DocViewer.Designer.cs">
+    <Compile Include="src\DocViewer.Designer.cs">
       <DependentUpon>DocViewer.cs</DependentUpon>
     </Compile>
-    <Compile Include="RegistrationForm.cs">
+    <Compile Include="src\RegistrationForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RegistrationForm.Designer.cs">
+    <Compile Include="src\RegistrationForm.Designer.cs">
       <DependentUpon>RegistrationForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="SearchForm2.cs">
+    <Compile Include="src\SearchForm2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ExploreWmiControl.cs">
+    <Compile Include="src\ExploreWmiControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="ExploreWmiControl.Designer.cs">
+    <Compile Include="src\ExploreWmiControl.Designer.cs">
       <DependentUpon>ExploreWmiControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="EventControl2.cs">
+    <Compile Include="src\EventControl2.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="EventControl2.Designer.cs">
+    <Compile Include="src\EventControl2.Designer.cs">
       <DependentUpon>EventControl2.cs</DependentUpon>
     </Compile>
-    <Compile Include="MethodControl2.cs">
+    <Compile Include="src\MethodControl2.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="MethodControl2.Designer.cs">
+    <Compile Include="src\MethodControl2.Designer.cs">
       <DependentUpon>MethodControl2.cs</DependentUpon>
     </Compile>
-    <Compile Include="QueryConditionForm.cs">
+    <Compile Include="src\QueryConditionForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="QueryControl2.cs">
+    <Compile Include="src\QueryControl2.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="QueryControl2.Designer.cs">
+    <Compile Include="src\QueryControl2.Designer.cs">
       <DependentUpon>QueryControl2.cs</DependentUpon>
     </Compile>
-    <Compile Include="NativeMethods.cs" />
+    <Compile Include="src\NativeMethods.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="StartupScreenForm.cs">
+    <Compile Include="src\StartupScreenForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TargetComputerWindow.cs">
+    <Compile Include="src\TargetComputerWindow.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CodeLanguageGeneration\VBScriptCodeGeneration.cs" />
-    <Compile Include="WMIScripter.cs">
+    <Compile Include="src\CodeLanguageGeneration\VBScriptCodeGeneration.cs" />
+    <Compile Include="src\WMIScripter.cs">
       <SubType>Form</SubType>
     </Compile>
-    <EmbeddedResource Include="SearchForm2.resx">
+    <EmbeddedResource Include="src\SearchForm2.resx">
       <DependentUpon>SearchForm2.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="ExploreWmiControl.resx">
+    <EmbeddedResource Include="src\ExploreWmiControl.resx">
       <DependentUpon>ExploreWmiControl.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="EventControl2.resx">
+    <EmbeddedResource Include="src\EventControl2.resx">
       <DependentUpon>EventControl2.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="MethodControl2.resx">
+    <EmbeddedResource Include="src\MethodControl2.resx">
       <DependentUpon>MethodControl2.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="QueryConditionForm.resx">
+    <EmbeddedResource Include="src\QueryConditionForm.resx">
       <DependentUpon>QueryConditionForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="QueryControl2.resx">
+    <EmbeddedResource Include="src\QueryControl2.resx">
       <DependentUpon>QueryControl2.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -234,21 +234,21 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="StartupScreenForm.resx">
+    <EmbeddedResource Include="src\StartupScreenForm.resx">
       <SubType>Designer</SubType>
       <DependentUpon>StartupScreenForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="TargetComputerWindow.resx">
+    <EmbeddedResource Include="src\TargetComputerWindow.resx">
       <DependentUpon>TargetComputerWindow.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WMIScripter.resx">
+    <EmbeddedResource Include="src\WMIScripter.resx">
       <DependentUpon>WMIScripter.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="WMIScripter.manifest" />
+    <EmbeddedResource Include="src\WMIScripter.manifest" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
@@ -284,13 +284,13 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Docs\QueryHelp.rtf" />
-    <EmbeddedResource Include="DocViewer.resx">
+    <EmbeddedResource Include="src\DocViewer.resx">
       <DependentUpon>DocViewer.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="AboutBox.resx">
+    <EmbeddedResource Include="src\AboutBox.resx">
       <DependentUpon>AboutBox.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Docs\EventHelp.rtf" />
@@ -298,7 +298,7 @@
     <EmbeddedResource Include="Docs\MethodHelp.rtf" />
     <EmbeddedResource Include="Docs\Overview.rtf" />
     <EmbeddedResource Include="Docs\SearchHelp.rtf" />
-    <EmbeddedResource Include="RegistrationForm.resx">
+    <EmbeddedResource Include="src\RegistrationForm.resx">
       <DependentUpon>RegistrationForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
